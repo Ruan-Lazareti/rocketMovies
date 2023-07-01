@@ -5,7 +5,6 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: stretch;
 `
 
 export const Form = styled.form`
@@ -35,6 +34,9 @@ export const Form = styled.form`
   }
 
   > a {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
     color: ${({ theme }) => theme.COLORS.PINK};
     margin: 4.2rem auto 0;
   }
