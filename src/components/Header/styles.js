@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100%;
   height: 11.6rem;
 
+  grid-area: "header";
+
   display: flex;
   justify-content: space-between;
   gap: 6.4rem;
