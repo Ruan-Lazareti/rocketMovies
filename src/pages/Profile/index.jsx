@@ -30,12 +30,12 @@ export function Profile() {
         placeholder="Email"/>
 
         <Input 
-        type="text"
+        type="password"
         icon={FiLock}
         placeholder="Senha atual"/>
         
         <Input 
-        type="text"
+        type="password"
         icon={FiLock}
         placeholder="Nova senha"/>
 
